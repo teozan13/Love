@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Η πρώτη μου σελίδα</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #d63384;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .heart {
+            font-size: 2em;
+            color: red;
+            display: inline-block;
+            animation: pulse 1s infinite alternate;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.3); }
+        }
+        audio {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Γεια σου, μωρό μου! ❤️</h1>
+    <p>Σε αγαπώ πολύ! <span class="heart">💖</span></p>
+
+    <!-- Ρομαντική μουσική -->
+    <audio controls autoplay loop>
+        <source src="love.mp3" type="audio/mpeg">
+        Ο περιηγητής σου δεν υποστηρίζει το audio element.
+    </audio>
+</body>
+</html>
